@@ -1,10 +1,12 @@
 {
     "name": "sourcemap-stacktrace",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Node.js stacktrace sourcemapper",
     "keywords": [
+        "stacktrace",
         "sourcemap",
-        "stacktrace"
+        "error",
+        "nodejs"
     ],
     "author": "Teoxoy",
     "license": "MIT",
