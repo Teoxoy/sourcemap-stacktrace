@@ -1,6 +1,6 @@
 {
     "name": "sourcemap-stacktrace",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Node.js stacktrace sourcemapper",
     "keywords": [
         "stacktrace",
@@ -17,7 +17,7 @@
     "homepage": "https://github.com/teoxoy/sourcemap-stacktrace",
     "main": "dist/sourcemap-stacktrace.cjs.js",
     "module": "dist/sourcemap-stacktrace.es.js",
-    "typings": "dist/types/sourcemap-stacktrace.d.ts",
+    "typings": "dist/types/index.d.ts",
     "scripts": {
         "build": "rimraf dist && rollup -c rollup.config.ts",
         "dev": "rimraf dist && rollup -c rollup.config.ts -w"
