@@ -1,0 +1,35 @@
+{
+    "name": "sourcemap-stacktrace",
+    "version": "1.0.0",
+    "description": "Node.js stacktrace sourcemapper",
+    "keywords": [
+        "sourcemap",
+        "stacktrace"
+    ],
+    "author": "Teoxoy",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/teoxoy/sourcemap-stacktrace.git"
+    },
+    "homepage": "https://github.com/teoxoy/sourcemap-stacktrace",
+    "main": "dist/sourcemap-stacktrace.cjs.js",
+    "module": "dist/sourcemap-stacktrace.es.js",
+    "typings": "dist/types/sourcemap-stacktrace.d.ts",
+    "scripts": {
+        "build": "rimraf dist && rollup -c rollup.config.ts",
+        "dev": "rimraf dist && rollup -c rollup.config.ts -w"
+    },
+    "dependencies": {
+        "source-map": "0.6.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.10",
+        "rimraf": "^2.6.3",
+        "rollup": "^1.16.2",
+        "rollup-plugin-commonjs": "^10.0.1",
+        "rollup-plugin-node-resolve": "^5.1.0",
+        "rollup-plugin-typescript2": "^0.21.2",
+        "typescript": "^3.5.2"
+    }
+}
